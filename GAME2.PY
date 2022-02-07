@@ -71,7 +71,7 @@ while True:
     if  highScore<str(Score):
         with open("high_score.txt", "w") as f:
             f.write(str(Score))
-# <==================if score doesn't break  the previous high score then keep printing previous high score=====================>
+# <===================if score doesn't break  the previous high score then keep printing previous high score=====================>
     else:
         with open("high_score.txt", "w") as f:
             f.write(highScore)
